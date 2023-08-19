@@ -23,7 +23,9 @@ public class Sample {
             case 6:
                 System.out.println("Friday");
                 break;
-                
+            case 7:
+                System.out.println("saturday");
+                break;
         }
 
     }
