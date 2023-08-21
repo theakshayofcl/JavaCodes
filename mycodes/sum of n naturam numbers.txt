@@ -1,0 +1,17 @@
+SUM OF N NATURAL NUMBERS
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(" SUM OF N NATURAL NUMBERS");
+		Scanner in=new Scanner(System.in);
+		int a=in.nextInt();
+		int sum=0;
+        for(int i=1;i<=a;i++){
+            sum+=i;
+        }
+        System.out.print(sum+" ");
+	}
+}

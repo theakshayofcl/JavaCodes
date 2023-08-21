@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+	public static void main(String args[]){
+		Scanner in=new Scanner(System.in);
+		int a=in.nextInt();
+		int reverse=0,rem,temp;
+		temp=a;
+		while(temp!=0){
+			rem=temp%10;
+			reverse=reverse*10+rem;
+			temp/=10;
+		}
+		if(a==reverse){
+			System.out.print("IT IS PALINDROME");
+		}
+		else{
+			System.out.print("IT IS NOT A PALINDROME");
+		}
+	}
+}	
+
