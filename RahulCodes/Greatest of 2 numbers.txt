@@ -1,0 +1,20 @@
+greatest of 2 numbers
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(" GREATEST OF TWO NUMBERS");
+		Scanner in=new Scanner(System.in);
+		int a=in.nextInt();
+		 int b=in.nextInt();
+		 int temp;
+		 if(a==b){
+		     System.out.println("BOTH ARE EQUAL");
+		 }
+		 else{
+		     temp=a>b?a:b;
+		     System.out.println(temp+" is greater");
+		 }
+	}
+}

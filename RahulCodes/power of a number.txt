@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner in=new Scanner(System.in);
+        int base,expo,exponent;
+        System.out.println("Enter the base");
+        base=in.nextInt();
+        System.out.println("Enter the exponent");
+        exponent=in.nextInt();
+        expo=exponent;
+        if(exponent==0){
+            expo=0;
+            System.out.println(base+" to the exponent "+ exponent+" is "+"1" );
+        }
+       
+        else{
+            long power=1;
+            while(exponent!=0){
+                power=power*base;
+                --exponent;
+            }
+            System.out.print(base+" to the exponent "+expo+" is "+power);
+        }
+    }
+}
+            
+        
+    
