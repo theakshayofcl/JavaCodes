@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class Main {
     public static void main(String[] args) {
         int n = 5;
         int f = 1, s = 2, t;

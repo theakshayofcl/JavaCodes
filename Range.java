@@ -1,4 +1,4 @@
-public class Range {
+public class Main {
     public static void main (String [] args){
         System.out.print(Byte.MAX_VALUE);
         System.out.println(Byte.MIN_VALUE);
