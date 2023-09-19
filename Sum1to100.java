@@ -7,7 +7,7 @@ public class Main{
         int sum = 0 ;
         while(true){
             System.out.println("Enter the number");
-            sum += s.nextInt();
+            sum = sum + s.nextInt();
 
             if( sum > 100)
             break;
