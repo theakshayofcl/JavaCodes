@@ -1,6 +1,6 @@
 <h1>Java Basic Problems - Code Snippets</h1>
 <h2>This Repository created by Akshay N </h2>
-<h3>Contributors</h3>
+<h3>Contributors:</h3>
 <ul>
 <li>Akshay N</li>
 <li>Rahul Raj</li>
